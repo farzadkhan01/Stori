@@ -97,7 +97,6 @@ button {
     font-size: var(--header-h2);
     font-weight: 600;
     color: var(--secondary-30);
-
 }
 
 .section-title p {
@@ -389,12 +388,21 @@ button {
 /* MEDIA QUARIES */
 @media (max-width: 992px) {
 
+    :root {
+        --header-h2: 28px;
+    }
+
     /* footer */
     .footer-effect a h3,
     .footer-address h3,
     .pages-link a {
         font-size: 16px;
     }
+
+    .section-title h2 {
+        font-size: var(--header-h2);
+    }
+
 }
 
 

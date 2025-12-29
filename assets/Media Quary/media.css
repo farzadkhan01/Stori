@@ -1,5 +1,6 @@
 @media (max-width: 1400px) {
-    .hero-text h2 {
+
+    .hero-text h1 {
         font-size: 48px;
     }
 }
@@ -7,7 +8,7 @@
 @media (max-width: 1200px) {
 
     /* hero-text */
-    .hero-text h2 {
+    .hero-text h1 {
         font-size: 42px;
     }
 
@@ -25,7 +26,7 @@
 
     /* hero-section */
 
-    .hero-text h2 {
+    .hero-text h1 {
         font-size: 32px;
     }
 
@@ -53,8 +54,8 @@
         padding: var(--section-padding);
     }
 
-    .hero-text h2 {
-        font-size: 28px;
+    .hero-text h1 {
+        font-size: 32px;
     }
 
     .hero-text p,
@@ -94,5 +95,19 @@
     /* CTA BANNER */
     .banner-info h3 {
         font-size: 22px;
+    }
+}
+
+@media (max-width: 576px) {
+    .services-information {
+        border: none;
+        border-radius: none;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .hero-text h1 {
+        font-size: 28px;
     }
 }
