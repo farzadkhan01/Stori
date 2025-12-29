@@ -32,6 +32,21 @@
 <body>
     <!-- navbar for large screens-->
     <nav id="Navbar" class="d-none d-md-block">
+        <!-- Services Categories -->
+        <div class="nav-service-categories">
+            <div class="container">
+
+                <ul>
+                    <li><a href="service.html">Speech and Language Therapy</a></li>
+                    <div class="nav-div"></div>
+                    <li><a href="service.html">Physical Therapy</a></li>
+                    <div class="nav-div"></div>
+                    <li><a href="service.html">Occupational Therapy</a></li>
+                    <div class="nav-div"></div>
+                    <li><a href="service.html">Behavioral Therapy</a></li>
+                </ul>
+            </div>
+        </div>
         <div class="container">
 
             <div class="navbar-content d-c-b">
@@ -46,9 +61,12 @@
                     <ul class="d-c-b gap-3 gap-lg-5 m-0 p-0">
                         <li><a href="../../index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href=" service.html">Services</a></li>
-                        <li><a href=" appointments.html">Appointments</a></li>
-                        <li><a href=" contact.html">Contact us</a></li>
+                        <li class="service-dropdown">
+                            <a href="service.html">Services</a>
+                            <i class="ri-arrow-up-s-line service-click"></i>
+                        </li>
+                        <li><a href="appointments.html">Appointments</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
                     </ul>
                 </div>
 
@@ -205,7 +223,7 @@
             <div class="appointment-details">
                 <div class="row gap-3 gap-md-0">
 
-                    <div class="col">
+                    <div class="col-12 col-sm ">
                         <div class="details-card card-1">
                             <div class="card-image">
                                 <img src="../Images/appointment1.png" alt="image">
@@ -214,7 +232,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col-12 col-sm ">
                         <div class="details-card card-2">
                             <div class="card-image">
                                 <img src="../Images/appointment2.png" alt="image">
@@ -223,7 +241,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col-12 col-sm ">
                         <div class="details-card card-3">
                             <div class="card-image">
                                 <img src="../Images/appointment3.png" alt="image">

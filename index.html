@@ -32,6 +32,23 @@
 <body>
     <!-- navbar for large screens-->
     <nav id="Navbar" class="d-none d-md-block">
+
+        <!-- Services Categories -->
+        <div class="nav-service-categories">
+            <div class="container">
+
+                <ul>
+                    <li><a href="assets/Pages/service.html">Speech and Language Therapy</a></li>
+                    <div class="nav-div"></div>
+                    <li><a href="assets/Pages/service.html">Physical Therapy</a></li>
+                    <div class="nav-div"></div>
+                    <li><a href="assets/Pages/service.html">Occupational Therapy</a></li>
+                    <div class="nav-div"></div>
+                    <li><a href="assets/Pages/service.html">Behavioral Therapy</a></li>
+                </ul>
+            </div>
+        </div>
+
         <div class="container">
 
             <div class="navbar-content d-c-b">
@@ -46,7 +63,10 @@
                     <ul class="d-c-b gap-3 gap-lg-5 m-0 p-0">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="assets/Pages/about.html">About</a></li>
-                        <li><a href="assets/Pages/service.html">Services</a></li>
+                        <li class="service-dropdown">
+                            <a href="assets/Pages/service.html">Services</a>
+                            <i class="ri-arrow-up-s-line service-click"></i>
+                        </li>
                         <li><a href="assets/Pages/appointments.html">Appointments</a></li>
                         <li><a href="assets/Pages/contact.html">Contact us</a></li>
                     </ul>

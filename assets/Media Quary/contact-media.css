@@ -11,15 +11,6 @@
 
 @media (max-width:376px) {
 
-    .contact-details .footer-effect a h3,
-    .contact-details .footer-address h3,
-    .contact-details .pages-link a {
-        font-size: 18px;
-    }
-
-    .footer-time h3 {
-        font-size: 18px;
-    }
 
     .footer-time p span {
         margin: 0 !important;

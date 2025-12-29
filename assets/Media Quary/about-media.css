@@ -97,6 +97,7 @@
 
     .short-note ul li p {
         margin-left: 30px;
+        text-align: left;
     }
 
     /* SLIDES */
@@ -175,11 +176,6 @@
     .page-title h2 {
         font-size: 48px;
     }
-
-    .page-ref h4 a {
-        font-size: 22px;
-    }
-
 
     .about-content h3 {
         font-size: 32px;

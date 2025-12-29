@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About us</title>
+    <title>Services</title>
     <link rel="shortcut icon" href="../Images/logo-removebg-preview.png" type="image/x-icon">
     <!-- google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,6 +32,21 @@
 <body>
     <!-- navbar for large screens-->
     <nav id="Navbar" class="d-none d-md-block">
+        <!-- Services Categories -->
+        <div class="nav-service-categories">
+            <div class="container">
+
+                <ul>
+                    <li><a href="service.html">Speech and Language Therapy</a></li>
+                    <div class="nav-div"></div>
+                    <li><a href="service.html">Physical Therapy</a></li>
+                    <div class="nav-div"></div>
+                    <li><a href="service.html">Occupational Therapy</a></li>
+                    <div class="nav-div"></div>
+                    <li><a href="service.html">Behavioral Therapy</a></li>
+                </ul>
+            </div>
+        </div>
         <div class="container">
 
             <div class="navbar-content d-c-b">
@@ -45,10 +60,13 @@
                 <div class="nav-links d-c-b gap-5">
                     <ul class="d-c-b gap-3 gap-lg-5 m-0 p-0">
                         <li><a href="../../index.html">Home</a></li>
-                        <li><a href=" about.html">About</a></li>
-                        <li><a href=" service.html">Services</a></li>
-                        <li><a href=" appointments.html">Appointments</a></li>
-                        <li><a href=" contact.html">Contact us</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="service-dropdown">
+                            <a href="service.html">Services</a>
+                            <i class="ri-arrow-up-s-line service-click"></i>
+                        </li>
+                        <li><a href="appointments.html">Appointments</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
                     </ul>
                 </div>
 

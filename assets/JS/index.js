@@ -26,3 +26,15 @@ const toggleFunctionality = function () {
 };
 
 toggleFunctionality();
+
+const dropdown = function () {
+    const dropdownContent = document.querySelector('.nav-service-categories');
+    const service = document.querySelector('.service-click');
+
+    service.addEventListener('click', () => {
+        service.classList.toggle('clicked');
+        dropdownContent.classList.toggle('nav-show');
+    });
+
+};
+dropdown();
