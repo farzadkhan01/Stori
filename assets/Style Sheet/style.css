@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.76)), url('../Images/hero-bg.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../Images/hero-bg.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -13,26 +13,21 @@
 
 /* =================== */
 /* hero-section */
-.hero-text h4 {
+.section-h4 {
     font-size: 16px;
+    font-weight: 600;
     color: #00000087;
 }
 
-.hero-text h4 span {
-    font-weight: 600;
-    color: var(--secondary-30);
-}
-
-.hero-text h2 {
-    font-size: 58px;
+.hero-text h1 {
+    font-size: var(--header-h1);
     font-weight: 600;
     margin: 0rem 0 20px 0;
 }
 
 .hero-text p {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     text-align: left;
-    color: black;
 }
 
 .hero-image img {
@@ -44,6 +39,7 @@
 #aboutUs {
     background-color: white;
     padding: var(--section-padding);
+    border-bottom: 0;
 }
 
 .about-text p {
@@ -92,7 +88,7 @@
 /* =================== */
 /* Services */
 #services {
-    background: linear-gradient(rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.76)), url('../Images/servicesBg.jpg');
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../Images/servicesBg.jpg');
     /* background-image: url('../Images/servicesBg.jpg'); */
     background-repeat: no-repeat;
     background-position: center;
@@ -104,10 +100,15 @@
     margin-top: 3rem;
 }
 
-.service-card {
-    border: 3px solid var(--secondary-30);
+.services-information {
+    border: 1px solid var(--secondary-30);
     border-radius: var(--small-radius);
-    padding: 4rem 5rem;
+}
+
+.service-card {
+    /* border: 3px solid var(--secondary-30);
+    border-radius: var(--small-radius); */
+    padding: 4rem 2rem;
     backdrop-filter: blur(8px)
 }
 
@@ -119,7 +120,7 @@
     width: var(--service-img-size);
     height: var(--service-img-size);
     border-radius: 100%;
-    border: 3px solid var(--secondary-30);
+    border: 1px solid var(--secondary-30);
     object-fit: cover;
 }
 

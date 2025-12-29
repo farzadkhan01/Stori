@@ -1,6 +1,6 @@
 :root {
-    --card-img-size: 8rem;
-    --card-img-padding: 1.5rem;
+    --card-img-size: 5rem;
+    --card-img-padding: 1rem;
 }
 
 #appointment {
@@ -40,7 +40,7 @@
 }
 
 .details-card h4 {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .card-2 .card-image {

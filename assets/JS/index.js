@@ -5,6 +5,8 @@ const toggleFunctionality = function () {
 
     const bars = document.querySelectorAll('.bar');
 
+    const body = document.querySelector('body');
+
     if (toggleBtn && menuContainer) {
         toggleBtn.addEventListener('click', function () {
             bars.forEach(bar => bar.classList.toggle('show'));
@@ -12,7 +14,8 @@ const toggleFunctionality = function () {
         });
 
         if (menuContainer.classList.contains('show')) {
-            document.querySelector('body').style.overflow = 'hidden';
+            body.style.height = '100vh';
+            body.style.overflow = 'hidden';
         } else {
             document.querySelector('body').style.overflow = 'auto';
         }

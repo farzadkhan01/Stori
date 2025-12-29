@@ -68,12 +68,6 @@
     color: #333;
 }
 
-
-.about-content span {
-    color: #008080;
-    font-weight: 600;
-}
-
 .small-image-tag {
     background-color: var(--secondary-30);
     width: max-content;
@@ -86,8 +80,7 @@
     right: -20%;
 }
 
-.small-image-tag h3 {
-    font-size: 22px;
+.small-image-tag p {
     color: white;
     width: max-content;
 }
@@ -151,18 +144,6 @@
 #ourMission {
     background-color: #1f5d6a;
     padding: var(--section-padding);
-}
-
-.mission-info h2 {
-    font-size: 26px;
-    font-weight: 600;
-    color: white;
-    margin-left: -2px;
-    margin-bottom: 1rem;
-}
-
-.mission-info h2 span {
-    color: var(--accent-10);
 }
 
 .mission-text {

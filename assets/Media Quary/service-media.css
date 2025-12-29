@@ -30,8 +30,17 @@
         font-size: 18px;
     }
 
+    .service-card-image img {
+        object-fit: contain;
+    }
+
     .service-card-image {
         width: 4rem;
         height: 4rem;
+        padding: 10px;
+    }
+
+    .therapy-heading h3 {
+        font-size: 18px;
     }
 }
