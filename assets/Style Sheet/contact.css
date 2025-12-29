@@ -1,0 +1,127 @@
+#pageFirstView {
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-information {
+    margin: 3rem 0;
+}
+
+#contactForm {
+    padding: var(--section-padding);
+}
+
+.contact-details,
+.contact-form {
+    background: white;
+    padding: 2rem 2rem;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.contact-form,
+.contact-details {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.22);
+}
+
+.contact-details ul {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-details .footer-effect a img,
+.contact-details .footer-address img {
+    width: 32px;
+}
+
+.contact-details .footer-effect a h3,
+.contact-details .footer-address h3,
+.contact-details .pages-link a {
+    font-size: 22px;
+}
+
+.footer-time i {
+    font-size: 26px;
+    margin-right: 15px;
+}
+
+.footer-time h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footer-time p {
+    margin-left: 48px;
+    margin-top: 15px;
+}
+
+.footer-time p span {
+    color: var(--secondary-30);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* FORM */
+
+form input {
+    outline: none;
+    border: 2px solid #80808061;
+    border-radius: 5px;
+    padding: 5px 0 5px 10px;
+    margin: 5px 0;
+}
+
+.three-cols {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.three-cols input {
+    width: 50%;
+}
+
+form textarea {
+    outline: none;
+    border: 2px solid #80808061;
+    border-radius: 5px;
+    padding: 5px 0 5px 10px;
+    margin-top: 5px;
+}
+
+input:-internal-autofill-selected {
+    border-color: var(--secondary-30);
+}
+
+textarea:focus,
+form input:focus {
+    border-color: var(--secondary-30);
+}
+
+.submit-btn input {
+    width: 100%;
+    border-color: var(--secondary-30);
+    background-color: var(--secondary-30);
+    color: white;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+
+.submit-btn input:hover {
+    background-color: var(--accent-10);
+    border-color: var(--accent-10);
+    color: black;
+}
+
+/* MAP */
+#map {
+    padding: var(--section-padding);
+}
+
+.map {
+    height: 80vh;
+}

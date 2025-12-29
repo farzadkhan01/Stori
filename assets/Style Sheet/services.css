@@ -1,0 +1,126 @@
+:root {
+    --card-img-size: 6rem;
+    --card-img-padding: 1rem;
+
+}
+
+body {
+    background-color: var(--primary-60);
+}
+
+#ServicesIntro {
+    padding: var(--section-padding);
+    border: 1px solid #ddd;
+}
+
+.page-bg {
+    filter: blur(2px);
+}
+
+.intro-icon,
+.intro-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-details {
+    background-color: white;
+    flex-direction: column;
+    height: -webkit-fill-available;
+    border-radius: 20px 20px 24px 24px;
+    padding-top: 20px;
+    border-bottom: 0;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.22);
+}
+
+.intro-icon {
+    background-color: var(--secondary-30);
+    width: max-content;
+    width: var(--card-img-size);
+    height: var(--card-img-size);
+    padding: var(--card-img-padding);
+    border-radius: 100%;
+}
+
+.intro-icon img {
+    width: 100%;
+}
+
+.bordering-2 a,
+.intro-icon-2 {
+    background-color: var(--accent-10) !important;
+}
+
+.bordering-3 a,
+.intro-icon-3 {
+    background-color: #d9b03b !important;
+}
+
+.bordering-4 a,
+.intro-icon-4 {
+    background-color: #92b864 !important;
+}
+
+.intro-text h3 {
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    margin: 2rem 0 0.5rem 0;
+}
+
+.intro-text h3,
+.intro-text p {
+    padding: 0 10px;
+}
+
+.intro-details a {
+    font-size: 18px;
+    color: white;
+    display: block;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: var(--secondary-30);
+    transition: var(--transition);
+}
+
+.intro-details a:hover {
+    letter-spacing: 0.3px;
+}
+
+/* therapy in details */
+.therapy-information {
+    padding: 2rem 0;
+}
+
+.service-card-image {
+    background-color: var(--secondary-30);
+    width: var(--card-img-size);
+    height: var(--card-img-size);
+    padding: var(--card-img-padding);
+    border-radius: 100%;
+}
+
+.therapy-heading h3 {
+    font-size: 28px;
+    color: black;
+}
+
+
+.therapy-text p span {
+    color: var(--secondary-30);
+    font-weight: 600;
+}
+
+.therapy-image {
+    width: 100%;
+}
+
+.therapy-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid var(--secondary-30);
+}

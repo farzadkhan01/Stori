@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+
+    :root {
+        --service-img-size: 10rem;
+    }
+
+    /* CTA BANNER */
+    .banner-info h3 {
+        font-size: 22px;
+    }
+}

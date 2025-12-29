@@ -1,0 +1,142 @@
+#heroSection {
+    height: calc(100vh - (var(--logo-size) + 21px));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.76)), url('../Images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+
+
+/* =================== */
+/* hero-section */
+.hero-text h4 {
+    font-size: 16px;
+    color: #00000087;
+}
+
+.hero-text h4 span {
+    font-weight: 600;
+    color: var(--secondary-30);
+}
+
+.hero-text h2 {
+    font-size: 58px;
+    font-weight: 600;
+    margin: 0rem 0 20px 0;
+}
+
+.hero-text p {
+    margin-bottom: 5rem;
+    text-align: left;
+    color: black;
+}
+
+.hero-image img {
+    border-radius: var(--small-radius);
+}
+
+/* =================== */
+/* About us */
+#aboutUs {
+    background-color: white;
+    padding: var(--section-padding);
+}
+
+.about-text p {
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.about-text span {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--secondary-30);
+}
+
+.about-image img {
+    border-radius: var(--small-radius);
+}
+
+/* =================== */
+/* Trust Bar */
+#trustBar {
+    padding: var(--section-padding);
+    background-color: white;
+}
+
+.bar-info {
+    padding: 0px 30px;
+}
+
+.sides-border {
+    border: 2px solid var(--secondary-30);
+    border-top: none;
+    border-bottom: none;
+}
+
+.bar-info img {
+    width: 5rem;
+}
+
+.bar-info h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+/* =================== */
+/* Services */
+#services {
+    background: linear-gradient(rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.76)), url('../Images/servicesBg.jpg');
+    /* background-image: url('../Images/servicesBg.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: var(--section-padding);
+}
+
+.services-information {
+    margin-top: 3rem;
+}
+
+.service-card {
+    border: 3px solid var(--secondary-30);
+    border-radius: var(--small-radius);
+    padding: 4rem 5rem;
+    backdrop-filter: blur(8px)
+}
+
+.card-info {
+    text-align: center;
+}
+
+.card-info img {
+    width: var(--service-img-size);
+    height: var(--service-img-size);
+    border-radius: 100%;
+    border: 3px solid var(--secondary-30);
+    object-fit: cover;
+}
+
+.card-info h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--secondary-30);
+    margin: 20px 0px 10px 0;
+
+}
+
+.card-divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--secondary-30);
+    margin: 2rem 0;
+}
+
+/* =================== */
+/* Services */

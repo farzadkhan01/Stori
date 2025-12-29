@@ -1,0 +1,98 @@
+@media (max-width: 1400px) {
+    .hero-text h2 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    /* hero-text */
+    .hero-text h2 {
+        font-size: 42px;
+    }
+
+    /* Services Card */
+    .service-card {
+        padding: 3rem .5rem;
+    }
+
+    .bar-info h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    /* hero-section */
+
+    .hero-text h2 {
+        font-size: 32px;
+    }
+
+    .hero-text p,
+    .about-text p {
+        margin-bottom: 3rem;
+    }
+
+    /* Services Card */
+    .card-info h3 {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    :root {
+        --service-img-size: 10rem;
+    }
+
+
+    /* hero-section */
+    #heroSection {
+        height: 100%;
+        padding: var(--section-padding);
+    }
+
+    .hero-text h2 {
+        font-size: 28px;
+    }
+
+    .hero-text p,
+    .about-text p {
+        margin-bottom: 2rem;
+        text-align: center;
+
+    }
+
+    /* Trust Bar */
+    .sides-border {
+        border: 2px solid var(--secondary-30);
+        border-left: none;
+        border-right: none;
+        margin: 30px 0;
+        padding: 30px 0px !important;
+    }
+
+    .bar-info {
+        padding: 0 0px;
+    }
+
+
+    /* Services Card */
+    .card-info img {
+        width: var(--service-img-size);
+    }
+
+    .card-info h3 {
+        font-size: 26px;
+    }
+
+    .service-card {
+        padding: 3rem 2rem;
+    }
+
+    /* CTA BANNER */
+    .banner-info h3 {
+        font-size: 22px;
+    }
+}
