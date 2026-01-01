@@ -24,7 +24,7 @@ class homePage {
 
         } else {
             console
-                .error("Missing elements: Check if 'toggle' ID and 'toggle-pages' class exist.");
+                .error("Missing elements: Check if 'toggle' ID and 'toggle-pages' class exist. ");
         }
     }
 

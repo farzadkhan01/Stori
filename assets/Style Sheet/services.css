@@ -104,13 +104,13 @@ body {
 }
 
 .therapy-heading h3 {
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 600;
     color: black;
 }
 
 
 .therapy-text p span {
-    color: var(--secondary-30);
     font-weight: 600;
 }
 
@@ -120,7 +120,8 @@ body {
 
 .therapy-image img {
     width: 100%;
-    height: 100%;
+    height: 20rem;
+    object-fit: cover;
     border-radius: 20px;
     border: 1px solid var(--secondary-30);
 }

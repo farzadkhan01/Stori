@@ -181,7 +181,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 5px;
 }
 
 .service-click {
@@ -189,6 +189,7 @@ nav {
     transition: all 0.3s;
     cursor: pointer;
     color: black;
+    transform: rotate(-180deg);
 }
 
 .service-click:hover {
@@ -197,7 +198,7 @@ nav {
 
 .service-click.clicked {
     color: var(--secondary-30);
-    transform: rotate(180deg);
+    transform: rotate(0deg);
 }
 
 
@@ -596,7 +597,7 @@ nav {
     }
 
     .bar1 {
-        width: 20px;
+        width: 25px;
         align-self: end;
     }
 
@@ -611,7 +612,7 @@ nav {
     }
 
     .bar3 {
-        width: 20px;
+        width: 25px;
         align-self: start;
     }
 

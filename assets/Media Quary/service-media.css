@@ -40,6 +40,10 @@
         padding: 10px;
     }
 
+    .therapy-image img {
+        height: 100%;
+    }
+
     .therapy-heading h3 {
         font-size: 18px;
     }

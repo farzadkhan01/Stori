@@ -37,13 +37,13 @@
             <div class="container">
 
                 <ul>
-                    <li><a href="service.html">Speech and Language Therapy</a></li>
+                    <li><a href="service.html#card1">Speech and Language Therapy</a></li>
                     <div class="nav-div"></div>
-                    <li><a href="service.html">Physical Therapy</a></li>
+                    <li><a href="service.html#card2">Physical Therapy</a></li>
                     <div class="nav-div"></div>
-                    <li><a href="service.html">Occupational Therapy</a></li>
+                    <li><a href="service.html#card3">Occupational Therapy</a></li>
                     <div class="nav-div"></div>
-                    <li><a href="service.html">Behavioral Therapy</a></li>
+                    <li><a href="service.html#card4">Behavioral Therapy</a></li>
                 </ul>
             </div>
         </div>
@@ -86,7 +86,7 @@
                         </li>
 
                         <li>
-                            <a href="https://www.instagram.com/stori.orgrehab">
+                            <a href="https://www.instagram.com/stori.orgrehab" target="_blank">
                                 <i class="ri-instagram-line"></i>
                             </a>
                         </li>
@@ -157,7 +157,7 @@
                             </li>
 
                             <li>
-                                <a href="https://www.instagram.com/stori.orgrehab" class="m-0">
+                                <a href="https://www.instagram.com/stori.orgrehab" target="_blank" class="m-0">
                                     <i class="ri-instagram-line"></i>
                                     <p>stori.orgrehab</p>
                                 </a>
@@ -275,7 +275,8 @@
 
                         <div class="contact-form bg-white h-100">
 
-                            <form id="form_submission">
+                            <form id="form_submission" action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="e980abdf-44a7-45d0-a8c7-bbcef2c2f539">
 
                                 <input type="text" name="name" placeholder="Name">
                                 <input type="email" name="email" placeholder="Email">
@@ -283,14 +284,6 @@
                                 <input type="text" name="city" placeholder="City">
                                 <input type="tel" name="tel" placeholder="Phone Number">
 
-                                <div class="success_message">
-                                    <p>
-                                        <strong>Success!</strong> Your message has been sent to STORI. We will
-                                        contact
-                                        you
-                                        shortly.
-                                    </p>
-                                </div>
                                 <button type="submit" id="button">Send Message</button>
 
                             </form>
@@ -375,7 +368,7 @@
                             <ul>
 
                                 <li class="footer-effect footer-address">
-                                    <a href=" contact.html">
+                                    <a href="#map">
                                         <img src="../Images/map-pin-line.svg" alt="image">
                                         <h3>
                                             J-1/19, Sheikh Malton Town, <br>
@@ -422,7 +415,7 @@
                             <ul>
 
                                 <li class="d-c-b justify-content-start social-link">
-                                    <a href="https://www.instagram.com/stori.orgrehab">
+                                    <a href="https://www.instagram.com/stori.orgrehab" target="_blank">
                                         <i class="ri-instagram-line"></i>
                                     </a>
                                 </li>
@@ -460,7 +453,7 @@
 
     <!-- Form JS -->
     <script src="../JS/homePage.js"></script>
-    <script src="../JS/contact.js"></script>
+    <!-- <script src="../JS/contact.js"></script> -->
 
 </body>
 

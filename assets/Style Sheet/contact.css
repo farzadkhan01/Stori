@@ -118,24 +118,3 @@ form button:hover {
 .map {
     height: 80vh;
 }
-
-
-/* success Message */
-.success_message {
-    background-color: #008080;
-    border-radius: 8px;
-    height: 0px;
-    text-align: center;
-    overflow: hidden;
-    transition: var(--transition);
-}
-
-.success_message p {
-    color: white;
-}
-
-.success_message.show {
-    height: auto;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-}
