@@ -1,6 +1,5 @@
 class homePage {
     constructor() {
-        console.log('HOME PAGE 🫂');
         this.init();
     }
 
@@ -12,7 +11,6 @@ class homePage {
         const toggleBtn = document.getElementById('toggle');
         const menuContainer = document.querySelector('.toggle-pages');
         const bars = document.querySelectorAll('.bar');
-        const body = document.querySelector('body');
 
         if (toggleBtn && menuContainer) {
             toggleBtn.addEventListener('click', function () {
@@ -52,7 +50,6 @@ class homePage {
     #observerCallback(entries) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                console.log(entry.target);
                 entry.target.classList.add('show');
             }
         });
