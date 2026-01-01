@@ -65,24 +65,13 @@
 }
 
 /* FORM */
-
 form input {
     outline: none;
     border: 2px solid #80808061;
     border-radius: 5px;
     padding: 5px 0 5px 10px;
     margin: 5px 0;
-}
-
-.three-cols {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-.three-cols input {
-    width: 50%;
+    width: 100%;
 }
 
 form textarea {
@@ -91,6 +80,7 @@ form textarea {
     border-radius: 5px;
     padding: 5px 0 5px 10px;
     margin-top: 5px;
+    width: 100%;
 }
 
 input:-internal-autofill-selected {
@@ -102,17 +92,19 @@ form input:focus {
     border-color: var(--secondary-30);
 }
 
-.submit-btn input {
+form button {
     width: 100%;
     border-color: var(--secondary-30);
     background-color: var(--secondary-30);
     color: white;
     font-weight: 600;
+    padding: 10px 0;
+    border-radius: 8px;
     transition: var(--transition);
 }
 
 
-.submit-btn input:hover {
+form button:hover {
     background-color: var(--accent-10);
     border-color: var(--accent-10);
     color: black;
@@ -125,4 +117,25 @@ form input:focus {
 
 .map {
     height: 80vh;
+}
+
+
+/* success Message */
+.success_message {
+    background-color: #008080;
+    border-radius: 8px;
+    height: 0px;
+    text-align: center;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.success_message p {
+    color: white;
+}
+
+.success_message.show {
+    height: auto;
+    padding: 10px 20px;
+    margin-bottom: 10px;
 }

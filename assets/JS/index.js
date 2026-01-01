@@ -1,3 +1,4 @@
+
 const toggleFunctionality = function () {
     const toggleBtn = document.getElementById('toggle');
 
@@ -34,7 +35,7 @@ const dropdown = function () {
     service.addEventListener('click', () => {
         service.classList.toggle('clicked');
         dropdownContent.classList.toggle('nav-show');
+        dropdownContent.style.zIndex = 26;
     });
-
 };
 dropdown();

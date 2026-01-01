@@ -38,7 +38,7 @@
 /* About us */
 #aboutUs {
     background-color: white;
-    padding: var(--section-padding);
+    margin: var(--section-padding);
     border-bottom: 0;
 }
 

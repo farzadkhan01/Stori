@@ -1,0 +1,79 @@
+class homePage {
+    constructor() {
+        console.log('HOME PAGE 🫂');
+        this.init();
+    }
+
+    /**
+     * @Functionality This fuction adds the show classes to the toggle Button also display the navbar (Pages reference).
+     * @author Farzad Khan
+     */
+    #toggleFunctionality() {
+        const toggleBtn = document.getElementById('toggle');
+        const menuContainer = document.querySelector('.toggle-pages');
+        const bars = document.querySelectorAll('.bar');
+        const body = document.querySelector('body');
+
+        if (toggleBtn && menuContainer) {
+            toggleBtn.addEventListener('click', function () {
+
+                // show class to the bars make an transition
+                bars.forEach(bar => bar.classList.toggle('show'));
+
+                // display menu
+                menuContainer.classList.toggle('show');
+            });
+
+        } else {
+            console
+                .error("Missing elements: Check if 'toggle' ID and 'toggle-pages' class exist.");
+        }
+    }
+
+    /**
+   * @Functionality Dropdown --> it displays categories of services.
+   * @author Farzad Khan
+   */
+    #dropdown() {
+        const dropdownContent = document.querySelector('.nav-service-categories');
+        const service = document.querySelector('.service-click');
+
+        service.addEventListener('click', () => {
+
+            // clicked class rotate the dropdown icon
+            service.classList.toggle('clicked');
+
+            // nav-show class displays the dropdown content
+            dropdownContent.classList.toggle('nav-show');
+            dropdownContent.style.zIndex = 26;
+        });
+    }
+
+    #observerCallback(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                console.log(entry.target);
+                entry.target.classList.add('show');
+            }
+        });
+    }
+
+    #pageLateView() {
+        const options = {
+            rootMargin: '0px 0px -5% 0px'
+        };
+        // class names 
+        const observer = new IntersectionObserver(this.#observerCallback, options);
+
+        const translate = document.querySelectorAll('.translate');
+        translate.forEach((entry => observer.observe(entry)));
+    }
+
+    init() {
+        this.#toggleFunctionality();
+        this.#dropdown();
+        this.#pageLateView();
+    }
+}
+
+const home = new homePage();

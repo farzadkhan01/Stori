@@ -39,7 +39,6 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: var(--primary-60);
 }
 
 img {
@@ -83,6 +82,18 @@ p {
 button {
     border: none;
     background-color: transparent;
+}
+
+/* hide the section and display only when it enter the viewport */
+.translate {
+    transform: translateY(9rem);
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.translate.show {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .section-title {
