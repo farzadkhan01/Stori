@@ -34,17 +34,18 @@ class homePage {
    */
     #dropdown() {
         const dropdownContent = document.querySelector('.nav-service-categories');
-        const service = document.querySelector('.service-click');
+        const service = document.querySelector('#serviceDropdown');
 
-        service.addEventListener('click', () => {
-
-            // clicked class rotate the dropdown icon
-            service.classList.toggle('clicked');
-
+        service.addEventListener('mouseenter', () => {
             // nav-show class displays the dropdown content
-            dropdownContent.classList.toggle('nav-show');
-            dropdownContent.style.zIndex = 26;
+            return dropdownContent.classList.add('nav-show');
         });
+
+        dropdownContent.addEventListener('mouseleave', function () {
+            // nav-show class displays the dropdown content
+            return dropdownContent.classList.remove('nav-show');
+        });
+
     }
 
     #observerCallback(entries) {
