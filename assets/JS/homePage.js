@@ -34,14 +34,20 @@ class homePage {
    */
     #dropdown() {
         const dropdownContent = document.querySelector('.nav-service-categories');
-        const service = document.querySelector('#serviceDropdown');
+        const dropdownIcon = document.querySelector('#dropdownIcon');
+        const icon = dropdownIcon.classList;
+        dropdownIcon.addEventListener('click', () => {
 
-        service.addEventListener('mouseenter', () => {
+            icon.toggle('clicked');
+
             // nav-show class displays the dropdown content
-            return dropdownContent.classList.add('nav-show');
+            return dropdownContent.classList.toggle('nav-show');
         });
 
         dropdownContent.addEventListener('mouseleave', function () {
+            if (icon.contains('clicked'))
+                icon.remove('clicked');
+
             // nav-show class displays the dropdown content
             return dropdownContent.classList.remove('nav-show');
         });

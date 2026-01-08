@@ -189,7 +189,8 @@ nav {
     transition: all 0.3s;
     cursor: pointer;
     color: black;
-    transform: rotate(-180deg);
+    transform: rotate(0deg);
+
 }
 
 .service-click:hover {
@@ -198,7 +199,8 @@ nav {
 
 .service-click.clicked {
     color: var(--secondary-30);
-    transform: rotate(0deg);
+    transform: rotate(180deg);
+
 }
 
 
